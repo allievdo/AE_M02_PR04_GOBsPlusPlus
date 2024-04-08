@@ -112,7 +112,7 @@ public class GoalSeeker : MonoBehaviour
         {
             goalString += goal.name + ": " + goal.value + "; ";
         }
-        goalString += "Discontenment: " + CurrentDiscontentment();
+        goalString += "Discontentment: " + CurrentDiscontentment();
         Debug.Log(goalString);
         discontentmentText.text = goalString.ToString();
     }
